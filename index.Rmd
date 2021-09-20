@@ -1,0 +1,118 @@
+---
+title: "Projetos em Logística Urbana"
+subtitle: "Meet xaringan"
+author: 
+- name: Renata Oliveira
+- affiliation: CEFET-MG
+date: "2021/09/20 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: ["default", "css/reta.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      slideNumberFormat: |
+         <div class="progress-bar-container">
+           <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+           </div>
+         </div>
+    seal: false 
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
+# options(knitr.table.format = "html")
+library(tidyverse)
+library(fontawesome) # from github: https://github.com/rstudio/fontawesome
+library(plotly)
+```
+
+
+layout: true
+  
+<div class="my-footer"><span>retaoliveira.github.io/places</span></div>
+
+<!-- this adds the link footer to all slides, depends on my-footer class in css-->
+
+---
+name: xaringan-title
+class: left, middle
+background-image: url(img/log7.jpg)
+background-size: cover
+
+.beige[
+.larger[
+Projetos em desenvolvimento no grupo de pesquisa PLACES e na rede NIUMAR com foco em logística urbana
+]
+]
+
+.beige[
+Renata Oliveira | 20/09/2021
+]
+
+
+<!-- this ends up being the title slide since seal = FALSE-->
+
+---
+
+# Projetos de pesquisa
+
+- **Relação entre características urbanas, mercado imobiliário e padrões espaciais de armazéns em diferentes contextos geográficos.**
+
+Identificar as relações entre atributos urbanos, bens imóveis logísticos e estrutura espacial das instalações logísticas com foco na expansão logística.
+
+- **Acessibilidade para os varejistas de alimentos: O Caso de Belo Horizonte, Brasil**
+
+Explorar relações espaciais: (i) a concentração da população; (ii) a renda das famílias e (iii) medidas de acessibilidade considerando tanto a estrutura espacial dos varejistas de alimentos quanto a distância entre os núcleos domiciliares e as lojas, considerando **acessibilidades passiva e ativa no acesso a alimentos**. 
+
+---
+
+# Projetos de pesquisa
+
+- **A geografia dos armazéns na Região Metropolitana de São Paulo e fatores que contribuem para esta distribuição espacial**
+
+Explorar fatores potenciais que relacionam características urbanas, e a localização de armazéns, especialmente em regiões periféricas. 
+
+- **Uma abordagem sustentável para a agricultura urbana baseada em conceitos logísticos da cidade para a produção e consumo local de hortaliças**
+
+Life Cycle Assessment: LCA para estimar o potencial de redução do impacto ambiental através da implementação de um modelo de produção e consumo. 
+
+---
+
+# Projetos de pesquisa
+
+- **O acesso às atividades urbanas durante a pandemia de Covid-19 e seus impactos sobre mobilidade urbana: O contexto brasileiro caracterizamos a diferenciação de acesso às atividades essenciais dentro das cidades brasileiras durante o distanciamento social e a intenção de manter mudanças de comportamento relativas a estas atividades no período pós-pandêmico.**
+
+Cadeia de viagens e hábitos de consumo
+
+- **Modelo baseado em agentes para entendimento do impacto das lojas _dark_ nas cidades**
+
+Em concepção - aluna de doutorado. 
+
+---
+
+# Princípios da pesquisa - PLACES
+
+**Contribuições Metodológicas**
+
+**Reprodutibilidade**
+
+**Impacto nas Políticas públicas** 
+
+---
+
+class: right, middle, inverse
+
+
+# Find me at...
+
+[`r fa(name = "twitter")` @retaoliveira](http://twitter.com/retaoliveira)  
+[`r fa(name = "github")` @retaoliveira](http://github.com/retaoliveira)  
+[`r fa(name = "link")` retaoliveira.github.io/places](https://retaoliveira.github.io/places)  
+[`r fa(name = "paper-plane")` renataoliveira@cefetmg.br](mailto:renataoliveira@cefetmg.br)
+
+
+
